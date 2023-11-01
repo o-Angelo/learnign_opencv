@@ -28,4 +28,7 @@ def main():
             obj_img = setColor(obj_img, x, y, 0, 0, vermelho)
     
     showImg(obj_img)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
 main()
